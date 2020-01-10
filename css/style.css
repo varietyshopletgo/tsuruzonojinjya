@@ -90,8 +90,8 @@ top
 .cd-fixed-bg {
   min-height: 100%;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
   background-position: center center;
 }
 
@@ -157,24 +157,26 @@ background-image: url("../img/top-bg.png");
 /* info */
 .info-wrap {
   background-image: url(../img/info-bg.png);
+  padding-top: 95px;
+  padding-bottom:95px;
 }
 /* message */
 
 .msg-wrap p{
-  padding-top: 3rem;
-  font-size:1.3rem;
+  padding-bottom: 30rem;
+  font-size:2rem;
   color: #4c4c4c;
 }
 
 .msg-wrap {
-  padding-top:5rem;
+  padding-top:30rem;
   padding-bottom: 20rem;
 }
 
 /* how to */
 .howto-wrap {
   padding-top:6.5rem;
-  padding-bottom:6.5rem;
+  padding-bottom:95px;
   background-image: url(../img/howto-bg.png);
   background-size: cover;
 }
@@ -198,6 +200,7 @@ background-image: url("../img/top-bg.png");
 .osaisen-wrap {
   position: relative;
   height: 700px;
+  margin-bottom: 95px;
 }
 
 .osaisen-bg-white {
@@ -207,10 +210,10 @@ background-image: url("../img/top-bg.png");
 
 .osaisen-contents {
   position: absolute;
-  top:150px;  
+  top:95px;  
   height: 100%;
   /* background-color:rgba(255,255,255,0.9); */
-  padding-bottom: 5rem;
+  /* margin-bottom: 95px; */
 }
 
 .osaisen-btn {
