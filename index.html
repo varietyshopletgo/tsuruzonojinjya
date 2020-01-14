@@ -26,6 +26,8 @@
   <script src="js/wow.js"></script>
   <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
   <link href="css/slick.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
    <!-- Bootstrap CSS -->
    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
    
@@ -44,30 +46,33 @@
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a href="" class="navbar-brand"><img src="img/logo.png" width="100px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#top">鳥居</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#info">ご案内</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#osaisen">お賽銭</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#history">歴史</a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+      <div class="container-fluid header-wrap">
+        <a href="" class="navbar-brand"><img src="img/logo.png" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">鳥居</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">ご案内</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#osaisen">お賽銭</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history">歴史</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    </nav>
+      </nav>
+  
+  </header>
 
   <!-- top -->
   <section id="top">
@@ -152,7 +157,7 @@
       <div class="container">
         <div class="row text-center section-title">
           <div class="col-12">
-            <h1>参拝の仕方</h1>
+            <img src="img/sanpai.png" width="40%">
           </div>
         </div>
         <div class="row sanpai">
@@ -253,7 +258,69 @@
         </div>
         </div>
     </div>
-    <div id="slides" class="carousel slide" data-ride="carousel">
+    <div class="new-slider">
+      <div><img src="img/history-1.png" alt="">
+        <div class="sample-slide">
+        <h1>歩く個展</h1>
+        <p>
+          『気が向いた時にふらりと散歩に出かけるついでに自分の個展を開きたい』という思いから生まれた移動式の個展。 ​甲子園の売り子感覚で自分の作品を見せて回ります。カフェやコミュニティスペースからの誘致をお待ちしております。</p>
+        <button class="btn btn-primary btn-lg" onclick="window.open('https://note.com/tsuruznomachi/n/n769f59d3b3eb?magazine_key=m135fd8884785')">見に行く</button>
+        </div>
+      </div>
+      <div><img src="img/history-2.png" alt="">
+        <div class="sample-slide">
+          <h1>歩く神社</h1>
+          <p>
+            首からお賽銭箱をぶら下げて歩くパフォーマンス。ご利益は「余白」。お賽銭をする時の理由付けや気持ちによって無限に広がります。
+          </p>
+          <button class="btn btn-primary btn-lg" onclick="window.open('https://note.com/tsuruznomachi/n/n588ec863a557')">見に行く</button>
+          </div>
+      </div>
+      <div><img src="img/history-3.png" alt="">
+        <div class="sample-slide">
+          <h1>雑絵<br>リーディング</h1>
+          <p>
+            テーマに沿ったメッセージをイラストとして降ろして読み解くオリジナル・リーディングメニュー。「絵はふざけているのに不思議と腑に落ちる」と好評です。
+          </p>
+          <button class="btn btn-primary btn-lg" onclick="window.open('https://polca.jp/users/tsuruzono')">見に行く</button>
+            </div>
+          </div>
+          <div class="row padding text-center">
+            <div class="col-6 offset-3">
+  
+          </div>
+      </div>
+      <div><img src="img/history-4.png" alt="">
+        <div class="sample-slide">
+          <h1>水流苑<br>ジンヂャー<br>タロット占い</h1>
+          <p>
+            占われる人の感性を頼りに読み解く無茶ぶり異世界タロットです。全２２枚のへんてこりんなイラストが描かれたカードを使って、文字通り無茶ぶりをしながら各コースに沿ったメッセージを降ろします。
+          </p>
+          <button class="btn btn-primary btn-lg" onclick="window.open('https://vitaminsuuumacchi.wixsite.com/tsuruzonojinja/blank')">見に行く</button>
+          </div>
+      </div>
+      <div><img src="img/history-5.png" alt="">
+        <div class="sample-slide">
+          <h1>変みくじ</h1>
+          <p>
+            これは何かの比喩なのか、あるいはただの意味を持たない文章なのか。受け取った後に混乱する人多数の水流苑神社名物『変みくじ』。一枚ずつ手描きしてお届けする世界にたった一枚しか存在しないおみくじです。
+          </p>
+          <button class="btn btn-primary btn-lg" onclick="window.open('https://note.com/tsuruznomachi/n/n0492a782053a')">見に行く</button>
+          </div>
+      </div>
+      <div><img src="img/history-6.png" alt="">
+        <div class="sample-slide">
+          <h1>今日の神棚</h1>
+          <p>
+            冷蔵庫の中を丸ごと神棚に仕立ててみたり、脱ぎ散らかした洋服を供えてみたり、子どものおままごと感覚でつくる『今日の神棚』の記録。
+          </p>
+          <button class="btn btn-primary btn-lg" onclick="window.open('https://www.instagram.com/kyonokamidana/')">見に行く</button>
+          </div>
+      </div>
+      <!-- <div><img src="img/history-1.png" alt=""></div>
+      <div><img src="img/history-1.png" alt=""></div> -->
+    </div>
+    <!-- <div id="slides" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
@@ -270,7 +337,7 @@
             <h1 class="display-2">歩く個展</h1>
             <h3>あやしい展</h3>
             <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://note.com/tsuruznomachi/n/n769f59d3b3eb?magazine_key=m135fd8884785')">紹介ページへ</button>
-            <!-- <h5>『気が向いた時にふらりと散歩に出かけるついでに自分の個展を開きたい』という思いから生まれた移動式の個展。 ​甲子園の売り子感覚で自分の作品を見せて回ります。カフェやコミュニティスペースからの誘致をお待ちしております。</h5> -->
+            - <h5>『気が向いた時にふらりと散歩に出かけるついでに自分の個展を開きたい』という思いから生まれた移動式の個展。 ​甲子園の売り子感覚で自分の作品を見せて回ります。カフェやコミュニティスペースからの誘致をお待ちしております。</h5> -->
           </div>
         </div>
         <div class="carousel-item">
@@ -319,7 +386,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   </section>
 
   <!-- footer -->
@@ -337,6 +404,19 @@
   <script>
     new WOW().init();
   </script>
+
+<!-- new slider -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+  $('.new-slider').slick({
+    autoplay: true, //自動再生
+    dots: true, //ドットのナビゲーションを表示
+    infinite: true, //スライドのループ有効化
+    speed: 1000, //切り替えのスピード（小さくすると速くなる）
+    fade: true, //フェードの有効化
+  });
+</script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
